@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+        function myFunction() {
+          // Get the value of the input field with id="numb"
+          let x = document.getElementById("sj").value;
+          // If x is Not a Number or less than one or greater than 10
+          let text;
+          if (x==123456) {
+            text = "ho gaya lodu";
+          } else {
+            text = "nahi huA CHUT MARIKE";
+          }
+          document.getElementById("lodu").innerHTML = text;
+        }
+        </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+   <input id="sj">
+   <p id="lodu"></p>
+   <button type="button" onclick="myFunction()">Submit</button>
+    <p color="blue", background="yellow" id="lodu"></p>
+    
+</body>
+</html>
